@@ -1,0 +1,115 @@
+{
+  "name": "Alif Wicaksana Ramadhan",
+  "photo": "/img/me.jpg",
+  "contact": {
+    "phone": "+62 813-6984-2186",
+    "email": "alifwr98@gmail.com"
+  },
+  "title": "Robotics Developer & Machine Learning Enthusiast",
+  "about": "Welcome to my personal page. I am passionate about robotics, artificial intelligence, and creating futuristic solutions. I bring dedication, skill, and enthusiasm to every project I undertake, pushing the boundaries of technology.",
+  "education": [
+    {
+      "institution": "Politeknik Elektronika Negeri Surabaya",
+      "degree": "Bachelor in Electronics Engineering",
+      "years": "2016 - 2020"
+    },
+    {
+      "institution": "Politeknik Elektronika Negeri Surabaya",
+      "degree": "Master in Electrical Engineering",
+      "years": "2021 - 2023"
+    }
+  ],
+  "experience": [
+    {
+      "position": "Professor Assistant",
+      "company": "Intelligent Robot System Laboratory (IRoS), University of Indonesia",
+      "period": "Feb 2024 - Now"
+    },
+    {
+      "position": "Software Developer",
+      "company": "PT.Fiesto Surabaya",
+      "period": "Aug 2023 - Jan 2024"
+    },
+    {
+      "position": "Software Developer (Remote)",
+      "company": "PT.Santai Berkualitas Syberindo",
+      "period": "Sep 2022 - Mar 2023"
+    },
+    {
+      "position": "Machine Learning Developer (Freelance)",
+      "company": "Self Freelance",
+      "period": "Nov 2020 - Jan 2022"
+    }
+  ],
+  "skills": [
+    "Programming: C, C++, Python, Javascript",
+    "Professional Software: Linux, ROS, PyTorch, Tensorflow, OpenCV, Flask, FastAPI, Git, Docker, CI/CD",
+    "Hardware: STM32, ESP32, AVR, Arduino, PCB Design (Eagle)",
+    "Languages: Indonesian, English (IELTS 6.5), Japanese (N4 simulation)"
+  ],
+  "projects": [
+    {
+      "name": "Deep Learning Based Signal Denoising",
+      "role": "Research Assistant",
+      "period": "Sep 2024 - Now",
+      "description": "Developed a deep learning model combining Transformer and CNN architectures to denoise ECG signals for improved clarity and accuracy in medical analysis."
+    },
+    {
+      "name": "Object Tracking using DeepSORT with Infrared Image Fusion",
+      "role": "Research Assistant",
+      "period": "Jul 2024 - Sep 2024",
+      "description": "Fused RGB and infrared image data for robust human tracking in varied lighting conditions, employing a Kalman filter and deep learning model for feature extraction."
+    },
+    {
+      "name": "Biometric Security System using Deep Learning",
+      "role": "Research Assistant",
+      "period": "Apr 2024 - Jun 2024",
+      "description": "Built a biometric security web application using Siamese network for facial verification, integrated with QdrantDB for storing user embeddings."
+    },
+    {
+      "name": "Omni-wheel Mobile Robot Localization and Mapping using Ultra Wide-Band (UWB)",
+      "role": "Freelance Project",
+      "period": "Mar 2024 - May 2024",
+      "description": "Created a map of gas leakage intensities using a mobile robot, utilizing neural networks for gas classification and trilateration-based UWB localization."
+    },
+    {
+      "name": "Human Following Robot using Optimized Adaptive Social Force Model",
+      "role": "Master Student",
+      "period": "Jan 2021 - Jul 2023",
+      "description": "Developed a differential drive mobile robot capable of following a person by detecting and tracking human leg positions using deep learning and Kalman filter. Optimized navigation using Adaptive Social Force Model."
+    },
+    {
+      "name": "Leg Detection using Lidar 2D",
+      "role": "Student Exchange at TUT",
+      "period": "Oct 2022 - Nov 2022",
+      "description": "Developed a tool to detect, track, and associate persons around a robot using 2D Lidar data and SSD MobilenetV3 to help navigation processes."
+    },
+    {
+      "name": "Distributed Image Stitching using MPI",
+      "role": "Master Student",
+      "period": "Aug 2022 - Dec 2022",
+      "description": "Improved image stitching time by distributing workloads across several nodes using MPI as part of a High-Performance Computing course."
+    },
+    {
+      "name": "Cheating Detection System",
+      "role": "Self Freelance",
+      "period": "Jan 2022 - Mar 2022",
+      "description": "Developed an application for cheating detection in test monitoring using Yolov3 for hand detection and MTCNN for gaze detection to determine cheating behavior."
+    },
+    {
+      "name": "Mask Detection on Attendance System",
+      "role": "Self Freelance",
+      "period": "Aug 2021 - Oct 2021",
+      "description": "Created an attendance system with mask detection capability during the COVID-19 pandemic, utilizing LBPH for face detection, VGGNet16 for identity recognition, and Yolov5 for mask detection on Raspberry Pi 4."
+    },
+    {
+      "name": "Event Detection using Acoustic Sensor",
+      "role": "Self Freelance",
+      "period": "Aug 2020 - Oct 2020",
+      "description": "Developed a monitoring device using microphones to detect events based on acoustic signals and CNN for feature extraction, implemented on MySQL and Laravel with an Android user interface."
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/alif-wicaksana"
+  }
+}
