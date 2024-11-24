@@ -2,7 +2,7 @@
   "name": "Alif Wicaksana Ramadhan",
   "photo": "/img/me.jpg",
   "contact": {
-    "phone": "+62 813-6984-2186",
+    "phone": "(+62)813-6984-2186",
     "email": "alifwr98@gmail.com"
   },
   "title": "Robotics Developer & Machine Learning Enthusiast",
@@ -27,24 +27,29 @@
     },
     {
       "position": "Software Developer",
-      "company": "PT.Fiesto Surabaya",
+      "company": "PT. Fiesto Surabaya",
       "period": "Aug 2023 - Jan 2024"
     },
     {
       "position": "Software Developer (Remote)",
-      "company": "PT.Santai Berkualitas Syberindo",
+      "company": "PT. Santai Berkualitas Syberindo",
       "period": "Sep 2022 - Mar 2023"
     },
     {
       "position": "Machine Learning Developer (Freelance)",
       "company": "Self Freelance",
-      "period": "Nov 2020 - Jan 2022"
+      "period": "Nov 2020 - Now"
+    },
+    {
+      "position": "Software Developer (Freelance)",
+      "company": "Self Freelance",
+      "period": "Nov 2020 - Now"
     }
   ],
   "skills": [
-    "Programming: C, C++, Python, Javascript",
+    "Programming: C, C++, Python, Javascript, Rust",
     "Professional Software: Linux, ROS, PyTorch, Tensorflow, OpenCV, Flask, FastAPI, Git, Docker, CI/CD",
-    "Hardware: STM32, ESP32, AVR, Arduino, PCB Design (Eagle)",
+    "Embedded System: STM32, ESP32, AVR, Arduino, PCB Design (Eagle)",
     "Languages: Indonesian, English (IELTS 6.5), Japanese (N4 simulation)"
   ],
   "projects": [
@@ -52,61 +57,61 @@
       "name": "Deep Learning Based Signal Denoising",
       "role": "Research Assistant",
       "period": "Sep 2024 - Now",
-      "description": "Developed a deep learning model combining Transformer and CNN architectures to denoise ECG signals for improved clarity and accuracy in medical analysis."
+      "description": "In this project, I developed a deep learning model to denoise ECG signals, improving the clarity and accuracy of these signals for medical analysis. The model combined Transformer and Convolutional Neural Network (CNN) architectures to leverage the strengths of both. The Transformer component was used to capture long-range dependencies and temporal relationships within the ECG signal, while the CNN layers were employed to extract local patterns and features effectively. The integration of these two models allowed for superior noise reduction,\nparticularly in handling complex and non-linear noise present in real-world ECG data. The denoising process significantly enhanced signal quality, making it easier to identify key features such as heart rate variability and detecting abnormal rhythms."
     },
     {
       "name": "Object Tracking using DeepSORT with Infrared Image Fusion",
       "role": "Research Assistant",
       "period": "Jul 2024 - Sep 2024",
-      "description": "Fused RGB and infrared image data for robust human tracking in varied lighting conditions, employing a Kalman filter and deep learning model for feature extraction."
+      "description": "An object tracking for robust human tracking application. The system fused the rgb image data with infrared image data to gain more robust object detection within the various lighting conditions. A kalman filter used to estimate the next position of the tracked human, and estimate the current position of a human that not detected in current frame. A deep learning model for appearance feature extraction was utilized. These appearance feature then used to associate a list of human in the previous frame with the current frame."
     },
     {
       "name": "Biometric Security System using Deep Learning",
       "role": "Research Assistant",
       "period": "Apr 2024 - Jun 2024",
-      "description": "Built a biometric security web application using Siamese network for facial verification, integrated with QdrantDB for storing user embeddings."
+      "description": "A web application with bio-metric security applied. In this work, a user who login needs to capture their face. The face image is then fed into the Siamese network to classify whether the person is the same as the login data and whether the image is live or fake. The Siamese network used InceptionNet as the feature extraction layer to generate embedding. Before the bio-metric verification process, the user faces should registered. The registration was done by storing the embedding values in a vector database named QdrantDB. The face image was given to the feature extraction layer in the verification process, resulting in the embedding values. Then, the system searches for the nearest similarity with stored embedding within the database. If the resulting embedding is identical to the login data from the user, then the user is verified to log in."
     },
     {
       "name": "Omni-wheel Mobile Robot Localization and Mapping using Ultra Wide-Band (UWB)",
       "role": "Freelance Project",
       "period": "Mar 2024 - May 2024",
-      "description": "Created a map of gas leakage intensities using a mobile robot, utilizing neural networks for gas classification and trilateration-based UWB localization."
+      "description": "An Omni-wheel mobile robot can create a map of gas leakage intensities. This robot utilizes three gas sensors and uses the sensor data with\na neural network to classify the gas into three classes: butane, alcohol, and gasoline. The robot needs a precise localization system to create\na stunning and accurate map. A trilateration-based localization was used since the robot’s working area is in a warehouse, categorized as an\nindoor environment. The trilateration employed ultra-wide-band technology. There were four UWB devices. The first UWB is placed in the\nrobot and works as a tag. The others were placed in a particular position and formed a triangle with certain distances."
     },
     {
       "name": "Human Following Robot using Optimized Adaptive Social Force Model",
       "role": "Master Student",
       "period": "Jan 2021 - Jul 2023",
-      "description": "Developed a differential drive mobile robot capable of following a person by detecting and tracking human leg positions using deep learning and Kalman filter. Optimized navigation using Adaptive Social Force Model."
+      "description": "A differential drive mobile robot that capable to follows certain person by detect and track the position of the human legs position. Human\nlegs were detected using a deep learning model, and tracked using kalman filter. Adaptive Social Force Model were utilized as the navigation\ncontrol, which has been optimized using Genetic Algorithm. The optimization process was done in simulation using CoppeliaSim."
     },
     {
       "name": "Leg Detection using Lidar 2D",
       "role": "Student Exchange at TUT",
       "period": "Oct 2022 - Nov 2022",
-      "description": "Developed a tool to detect, track, and associate persons around a robot using 2D Lidar data and SSD MobilenetV3 to help navigation processes."
+      "description": "A tool for detect, track, and associate persons around a robot, to help the navigation processes of the robot. The scanned data from the lidar\nsensor were plotted into 2d map. from the 2d map, a SSD MobilenetV3 was utilized to detect the object that recognized as human legs."
     },
     {
       "name": "Distributed Image Stitching using MPI",
       "role": "Master Student",
       "period": "Aug 2022 - Dec 2022",
-      "description": "Improved image stitching time by distributing workloads across several nodes using MPI as part of a High-Performance Computing course."
+      "description": "This is part of High Performance Computing course’s tasks. The goal of this project is to improve the time process of image stitching by\ndistribute the work loads to several nodes. In this work, to distribute the work loads, we implemented MPI."
     },
     {
       "name": "Cheating Detection System",
       "role": "Self Freelance",
       "period": "Jan 2022 - Mar 2022",
-      "description": "Developed an application for cheating detection in test monitoring using Yolov3 for hand detection and MTCNN for gaze detection to determine cheating behavior."
+      "description": "An application that provide cheating detection for monitoring the process of test. To recognize wether the person is cheating or not, the system\nused Yolov3 to detect the person’s hands. We defined the working area of the person, if the detected hands went out from the defined frame,\nthe system mark it as a cheating. MTCNN architecture also utilized to get facial feature to determine the person’s gaze."
     },
     {
       "name": "Mask Detection on Attendance System",
       "role": "Self Freelance",
       "period": "Aug 2021 - Oct 2021",
-      "description": "Created an attendance system with mask detection capability during the COVID-19 pandemic, utilizing LBPH for face detection, VGGNet16 for identity recognition, and Yolov5 for mask detection on Raspberry Pi 4."
+      "description": "An application that provide attendance system that also make sure if the attending person using mask due to covid19. This system utilize\nLocal Binary Pattern Histogram (LBPH) for the face detection. To recognize the person identity, VGGNet16 was utilized. And for the mask\ndetection, Yolov5 was utilized. MySQL was used as the database to record the user attendance data. All the system was implemented in a\nRaspberry Pi 4."
     },
     {
       "name": "Event Detection using Acoustic Sensor",
       "role": "Self Freelance",
       "period": "Aug 2020 - Oct 2020",
-      "description": "Developed a monitoring device using microphones to detect events based on acoustic signals and CNN for feature extraction, implemented on MySQL and Laravel with an Android user interface."
+      "description": "A monitoring device that utilize microphone as the main sensor. The microphone is recording the sound around it, the do the feature extraction\ninto the spectrogram form. In the spectrogram form, a Convolutional Neural Network were utilized to able recognize the recorded event.\nMySQL were used as the database to record the user attendance data, and laravel were used as the backend server. As the user interface, an\nandroid application was built."
     }
   ],
   "social": {
