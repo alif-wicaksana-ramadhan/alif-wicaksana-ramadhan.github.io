@@ -1,45 +1,5 @@
 <template>
   <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 min-h-screen text-white">
-    <nav class="flex items-center justify-between p-6 max-w-7xl mx-auto">
-      <div class="text-3xl font-bold text-yellow-300 hover:text-yellow-100 transition-transform transform hover:scale-105 cursor-pointer">
-        {{ jsonData.name }}
-      </div>
-      <div>
-        <ul class="hidden md:flex space-x-6">
-          <li><a href="#about" class="hover:text-yellow-100 transition-colors">About</a></li>
-          <li><a href="#education" class="hover:text-yellow-100 transition-colors">Education</a></li>
-          <li><a href="#experience" class="hover:text-yellow-100 transition-colors">Experience</a></li>
-          <li><a href="#skills" class="hover:text-yellow-100 transition-colors">Skills</a></li>
-          <li><a href="#projects" class="hover:text-yellow-100 transition-colors">Projects</a></li>
-        </ul>
-        <button @click="toggleMenu" class="md:hidden text-yellow-300 focus:outline-none">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
-      </div>
-    </nav>
-
-    <div v-if="showMenu" class="md:hidden bg-blue-700 p-4">
-      <ul class="space-y-4">
-        <li><a href="#about" class="block hover:text-yellow-100">About</a></li>
-        <li><a href="#education" class="block hover:text-yellow-100">Education</a></li>
-        <li><a href="#experience" class="block hover:text-yellow-100">Experience</a></li>
-        <li><a href="#skills" class="block hover:text-yellow-100">Skills</a></li>
-        <li><a href="#projects" class="block hover:text-yellow-100">Projects</a></li>
-      </ul>
-    </div>
-
-    <header class="text-center mt-20 mb-10 px-4">
-      <div class="w-40 h-40 mx-auto rounded-full overflow-hidden mb-6 transition-transform transform hover:scale-105">
-        <img :src="jsonData.photo" alt="{{ jsonData.name }}" class="w-full h-full object-cover">
-      </div>
-      <h1 class="text-5xl md:text-6xl font-extrabold text-yellow-300">{{ jsonData.name }}</h1>
-      <p class="mt-4 text-lg md:text-xl text-gray-200">
-        {{ jsonData.contact.phone }} | <a :href="'mailto:' + jsonData.contact.email" class="text-yellow-100 hover:underline">{{ jsonData.contact.email }}</a>
-      </p>
-      <p class="text-xl md:text-2xl text-yellow-200 mt-2">{{ jsonData.title }}</p>
-    </header>
 
     <section id="about" class="text-center mb-16 max-w-4xl mx-auto px-4">
       <p class="text-lg md:text-2xl text-gray-200">{{ jsonData.about }}</p>
