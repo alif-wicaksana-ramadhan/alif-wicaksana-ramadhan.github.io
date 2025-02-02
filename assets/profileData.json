@@ -2,11 +2,12 @@
   "name": "Alif Wicaksana Ramadhan",
   "photo": "/img/me.jpg",
   "contact": {
-    "phone": "(+62)813-6984-2186",
-    "email": "alifwr98@gmail.com"
+    "phone": "(+62) 813-6984-2186",
+    "email": "alifwr@outlook.com"
   },
-  "title": "Robotics Developer & Machine Learning Enthusiast",
-  "about": "Welcome to my personal page. I am passionate about robotics, artificial intelligence, and creating futuristic solutions. I bring dedication, skill, and enthusiasm to every project I undertake, pushing the boundaries of technology.",
+  "title": "Robotics & AI Enthusiast | Software Engineer | Researcher",
+  "about": "Hi, I’m Alif, a robotics enthusiast, software engineer, and researcher. My passion lies in combining cutting-edge technologies with creative solutions to drive progress. I work at the intersection of robotics, AI, software engineering, and scientific research, creating systems that solve real-world challenges and push the boundaries of what's possible.",
+  "slogan": "Combining AI, Robotics, and Software Engineering to Drive Technological Advancements.",
   "education": [
     {
       "institution": "Politeknik Elektronika Negeri Surabaya",

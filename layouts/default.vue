@@ -2,7 +2,9 @@
     <div class="bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400 min-h-screen text-white">
       <nav class="flex items-center justify-between p-6 max-w-7xl mx-auto">
         <div class="text-3xl font-bold text-yellow-300 hover:text-yellow-100 transition-transform transform hover:scale-105 cursor-pointer">
+          <NuxtLink href="/">
           {{ jsonData.name }}
+          </NuxtLink>
         </div>
         <div>
           <ul class="hidden md:flex space-x-6">
@@ -30,21 +32,12 @@
         </ul>
       </div>
 
-      <header class="text-center mt-20 mb-10 px-4">
-        <div class="w-40 h-40 mx-auto rounded-full overflow-hidden mb-6 transition-transform transform hover:scale-105">
-          <img :src="jsonData.photo" alt="{{ jsonData.name }}" class="w-full h-full object-cover">
-        </div>
-        <h1 class="text-5xl md:text-6xl font-extrabold text-yellow-300">{{ jsonData.name }}</h1>
-        <p class="mt-4 text-lg md:text-xl text-gray-200">
-          {{ jsonData.contact.phone }} | <a :href="'mailto:' + jsonData.contact.email" class="text-yellow-100 hover:underline">{{ jsonData.contact.email }}</a>
-        </p>
-        <p class="text-xl md:text-2xl text-yellow-200 mt-2">{{ jsonData.title }}</p>
-      </header>
-
-
     <slot>
-
     </slot>
+
+      <footer class="text-center py-10 px-4">
+        <p class="text-lg md:text-xl text-yellow-300">Connect with me on <a :href="jsonData.social.linkedin" class="text-yellow-100 hover:underline">LinkedIn</a> | © {{ new Date().getFullYear() }} {{ jsonData.name }}</p>
+      </footer>
   </div>
 </template>
 
