@@ -507,7 +507,7 @@ This file contains the structured data for the resume website.
 
 ## Setup Instructions
 
-1. Install dependencies:
+1. Install dependencies :
 ```bash
 npm install @nuxt/content @headlessui/vue @heroicons/vue
 ```
