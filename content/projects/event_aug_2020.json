@@ -1,0 +1,6 @@
+{
+  "name": "Event Detection using Acoustic Sensor",
+  "role": "Self Freelance",
+  "period": "Aug 2020 - Oct 2020",
+  "description": "A monitoring device that utilize microphone as the main sensor. The microphone is recording the sound around it, the do the feature extraction\ninto the spectrogram form. In the spectrogram form, a Convolutional Neural Network were utilized to able recognize the recorded event.\nMySQL were used as the database to record the user attendance data, and laravel were used as the backend server. As the user interface, an\nandroid application was built."
+}

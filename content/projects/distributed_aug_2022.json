@@ -1,0 +1,6 @@
+{
+  "name": "Distributed Image Stitching using MPI",
+  "role": "Master Student",
+  "period": "Aug 2022 - Dec 2022",
+  "description": "This is part of High Performance Computing course’s tasks. The goal of this project is to improve the time process of image stitching by\ndistribute the work loads to several nodes. In this work, to distribute the work loads, we implemented MPI."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Cheating Detection System",
+  "role": "Self Freelance",
+  "period": "Jan 2022 - Mar 2022",
+  "description": "An application that provide cheating detection for monitoring the process of test. To recognize wether the person is cheating or not, the system\nused Yolov3 to detect the person’s hands. We defined the working area of the person, if the detected hands went out from the defined frame,\nthe system mark it as a cheating. MTCNN architecture also utilized to get facial feature to determine the person’s gaze."
+}

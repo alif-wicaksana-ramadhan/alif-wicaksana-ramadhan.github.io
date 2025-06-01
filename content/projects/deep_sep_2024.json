@@ -1,0 +1,6 @@
+{
+  "name": "Deep Learning Based Signal Denoising",
+  "role": "Research Assistant",
+  "period": "Sep 2024 - Now",
+  "description": "In this project, I developed a deep learning model to denoise ECG signals, improving the clarity and accuracy of these signals for medical analysis. The model combined Transformer and Convolutional Neural Network (CNN) architectures to leverage the strengths of both. The Transformer component was used to capture long-range dependencies and temporal relationships within the ECG signal, while the CNN layers were employed to extract local patterns and features effectively. The integration of these two models allowed for superior noise reduction,\nparticularly in handling complex and non-linear noise present in real-world ECG data. The denoising process significantly enhanced signal quality, making it easier to identify key features such as heart rate variability and detecting abnormal rhythms."
+}

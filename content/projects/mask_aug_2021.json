@@ -1,0 +1,6 @@
+{
+  "name": "Mask Detection on Attendance System",
+  "role": "Self Freelance",
+  "period": "Aug 2021 - Oct 2021",
+  "description": "An application that provide attendance system that also make sure if the attending person using mask due to covid19. This system utilize\nLocal Binary Pattern Histogram (LBPH) for the face detection. To recognize the person identity, VGGNet16 was utilized. And for the mask\ndetection, Yolov5 was utilized. MySQL was used as the database to record the user attendance data. All the system was implemented in a\nRaspberry Pi 4."
+}

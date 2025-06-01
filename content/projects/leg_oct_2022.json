@@ -1,0 +1,6 @@
+{
+  "name": "Leg Detection using Lidar 2D",
+  "role": "Student Exchange at TUT",
+  "period": "Oct 2022 - Nov 2022",
+  "description": "A tool for detect, track, and associate persons around a robot, to help the navigation processes of the robot. The scanned data from the lidar\nsensor were plotted into 2d map. from the 2d map, a SSD MobilenetV3 was utilized to detect the object that recognized as human legs."
+}

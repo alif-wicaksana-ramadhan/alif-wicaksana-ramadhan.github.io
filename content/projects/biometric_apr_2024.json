@@ -1,0 +1,6 @@
+{
+  "name": "Biometric Security System using Deep Learning",
+  "role": "Research Assistant",
+  "period": "Apr 2024 - Jun 2024",
+  "description": "A web application with bio-metric security applied. In this work, a user who login needs to capture their face. The face image is then fed into the Siamese network to classify whether the person is the same as the login data and whether the image is live or fake. The Siamese network used InceptionNet as the feature extraction layer to generate embedding. Before the bio-metric verification process, the user faces should registered. The registration was done by storing the embedding values in a vector database named QdrantDB. The face image was given to the feature extraction layer in the verification process, resulting in the embedding values. Then, the system searches for the nearest similarity with stored embedding within the database. If the resulting embedding is identical to the login data from the user, then the user is verified to log in."
+}

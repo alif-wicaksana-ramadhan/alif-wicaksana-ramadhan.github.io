@@ -1,0 +1,6 @@
+{
+  "name": "Human Following Robot using Optimized Adaptive Social Force Model",
+  "role": "Master Student",
+  "period": "Jan 2021 - Jul 2023",
+  "description": "A differential drive mobile robot that capable to follows certain person by detect and track the position of the human legs position. Human\nlegs were detected using a deep learning model, and tracked using kalman filter. Adaptive Social Force Model were utilized as the navigation\ncontrol, which has been optimized using Genetic Algorithm. The optimization process was done in simulation using CoppeliaSim."
+}

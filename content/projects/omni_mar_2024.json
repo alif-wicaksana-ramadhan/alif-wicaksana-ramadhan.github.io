@@ -1,0 +1,6 @@
+{
+  "name": "Omni-wheel Mobile Robot Localization and Mapping using Ultra Wide-Band (UWB)",
+  "role": "Freelance Project",
+  "period": "Mar 2024 - May 2024",
+  "description": "An Omni-wheel mobile robot can create a map of gas leakage intensities. This robot utilizes three gas sensors and uses the sensor data with\na neural network to classify the gas into three classes: butane, alcohol, and gasoline. The robot needs a precise localization system to create\na stunning and accurate map. A trilateration-based localization was used since the robot’s working area is in a warehouse, categorized as an\nindoor environment. The trilateration employed ultra-wide-band technology. There were four UWB devices. The first UWB is placed in the\nrobot and works as a tag. The others were placed in a particular position and formed a triangle with certain distances."
+}

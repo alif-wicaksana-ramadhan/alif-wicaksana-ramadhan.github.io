@@ -1,0 +1,6 @@
+{
+  "name": "Object Tracking using DeepSORT with Infrared Image Fusion",
+  "role": "Research Assistant",
+  "period": "Jul 2024 - Sep 2024",
+  "description": "An object tracking for robust human tracking application. The system fused the rgb image data with infrared image data to gain more robust object detection within the various lighting conditions. A kalman filter used to estimate the next position of the tracked human, and estimate the current position of a human that not detected in current frame. A deep learning model for appearance feature extraction was utilized. These appearance feature then used to associate a list of human in the previous frame with the current frame."
+}

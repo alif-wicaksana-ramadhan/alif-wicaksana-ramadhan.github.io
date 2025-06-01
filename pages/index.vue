@@ -72,7 +72,10 @@ export default {
     }
   },
   mounted() {
-    console.log(jsonData.photo);
+    queryCollection('educations').all()
+        .then((res) => {
+          console.log(res)
+        })
   }
 };
 </script>
